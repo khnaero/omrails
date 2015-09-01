@@ -1,0 +1,51 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*
+.navbar-inner {
+	@include box-shadow(none !impportant);
+	border: 0;
+}
+*/
+
+/* universal */
+
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+}
+
+/* header */
+.container-fluid {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: 87CEEB;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* footer */
+
+.footer {
+	margin-top: 50px;
+	color: $gray-light;
+	a {
+		color: $gray;
+	}
+}
