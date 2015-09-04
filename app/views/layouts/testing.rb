@@ -17,3 +17,7 @@ flash.each do |message_type, message|
 		puts 'wrong'
 	end
 end
+
+
+name on edit page wont prefill (what is name)
+name will not show up in description
