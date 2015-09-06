@@ -21,3 +21,4 @@ end
 
 name on edit page wont prefill (what is name)
 name will not show up in description
+error messages dont show up on show page
