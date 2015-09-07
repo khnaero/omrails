@@ -1,7 +1,7 @@
 <%= simple_form_for @pin, html: { multipart: true } do |f| %>
   <%= f.error_notification %>
-  <%= f.full_error :image_file_size, class: "alert alert-error" %>
-  <%= f.full_error :image_file_content_type, class: "alert alert-error" %>
+  <%#= f.full_error :image_file_size, class: "alert alert-error" %>
+  <%#= f.full_error :image_file_content_type, class: "alert alert-error" %>
 
 
   <%= f.input :image, label: "Upload an image" %>
