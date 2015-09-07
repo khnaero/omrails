@@ -47,3 +47,7 @@ error messages dont show up on show page
 # <br>
 
 # <%= link_to 'New Pin', new_pin_path, class: "btn btn-primary btn-lg" %>
+
+jQuery ->
+	$('#pins').imagesLoaded ->
+		$('#pins').masonry itemSelector: ".box"

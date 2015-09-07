@@ -1,13 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/*
-.navbar-inner {
-	@include box-shadow(none !impportant);
-	border: 0;
+.navbar {
+  background-image: image-url('bg.gif');
 }
-*/
 
+.nav.navbar-nav li a {
+    color: white;
+}
 /* universal */
 
 
