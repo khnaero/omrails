@@ -56,7 +56,7 @@ jQuery ->
     $('#pins').masonry 'reload'
     return
 
-    // $(document).ready ->
+// $(document).ready ->
 //   $('#pins').masonry(
 //     columnWidth: 228
 //     itemSelector: '.box').imagesLoaded ->
