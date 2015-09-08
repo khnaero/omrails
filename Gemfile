@@ -17,6 +17,9 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 4.3"
+# Also run the figaro generator
+gem 'figaro'
+# Newest version of aws-sdk is not backwards compatible
 gem 'aws-sdk', '< 2.0'
 
 # Use jquery as the JavaScript library

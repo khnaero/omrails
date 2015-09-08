@@ -79,6 +79,16 @@ Rails.application.configure do
 
   host = 'gentle-woodland-8455.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      address: "smtp.gmail.com",
+      port: 587,
+      authentication: "plain",
+      enable_starttls_auto: true,
+      user_name: ENV["SENDGRID_USERNAME"],
+      password: ENV["SENDGRID_PASSWORD"],
+      domain: 'heroku.com'
+  }
 
   # Paperclip should use Amazon S3 on Heroku
   config.paperclip_defaults = {
@@ -89,4 +99,6 @@ Rails.application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
+
+
 end
