@@ -17,6 +17,7 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 4.3"
+gem 'aws-sdk'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

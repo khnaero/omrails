@@ -51,3 +51,15 @@ error messages dont show up on show page
 jQuery ->
 	$('#pins').imagesLoaded ->
 		$('#pins').masonry itemSelector: ".box"
+
+.imagesLoaded ->
+    $('#pins').masonry 'reload'
+    return
+
+    // $(document).ready ->
+//   $('#pins').masonry(
+//     columnWidth: 228
+//     itemSelector: '.box').imagesLoaded ->
+//     $('#pins').masonry 'reload'
+//     return
+//   return

@@ -2,10 +2,11 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
+
 $(document).ready ->
-  $('#pins').masonry(
-    columnWidth: 228
-    itemSelector: '.box').imagesLoaded ->
-    $('#pins').masonry 'reload'
-    return
-  return
+	$('#pins').imagesLoaded ->
+	  $('#pins').masonry(
+	    columnWidth: 228
+	    itemSelector: '.box')
+	  return
+	return
