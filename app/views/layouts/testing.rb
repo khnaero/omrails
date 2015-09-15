@@ -18,6 +18,7 @@ flash.each do |message_type, message|
 	end
 end
 
+<%= link_to pin.user.name, pin.user %>
 
 name on edit page wont prefill (what is name)
 name will not show up in description
